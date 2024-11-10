@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header{
+            background-color:#333;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        header center h2{
+            font-size: 18px;
+            font-family: sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header nav a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        section center h2{
+            margin: 10px;
+        }
+        .products-section{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+        .product{
+            padding: 1rem;
+            width: 500px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 2rem;
+            box-shadow: 1px 1px 10px rgb(34, 34, 34)
+        }
+        .product img {
+            width: 80%;
+            height: auto;
+        }
+        .whatsapp-icon {
+            position: fixed;
+            bottom: 5px;
+            right: 1px;
+            z-index: 999;
+            cursor: pointer;
+        }
+        .whatsapp-icon1 {
+            position: fixed;
+            bottom: 90px;
+            right: 5px;
+            z-index: 999;
+            cursor: pointer;
+        }
+        @media only screen and (max-width:600px) {
+            .whatsapp-icon img {
+                width: 60px;
+                margin-left: 10px
+            }
+        }
+        #btn{
+            border: none;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            font-size: 15px;
+        }
+        .contact-form1 {
+            padding: 2rem;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        img{
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-section">
+            <center>
+                <img  src="jewel-removebg-preview.png" width="65px">
+            </center>
+            <center>
+                <h2>Jewell _ rry</h2>
+            </center><br>
+            <nav>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="3">Contact</a>
+                <a><img style="margin: -10px;" onclick="toggleCartModal()" src="images-removebg-preview (11).png" alt="cart" width="30px"></a>
+            </nav><br>
+        </div>
+    </header><br><br><br><br><br><br><br><br>
+    <section>
+        <center>
+            <h2>Discover our Premium Products!</h2>
+        </center>
+        <center>
+            <p>Quality  at the best prices.</p>
+        </center>
+    </section><br>
+
+    <div class="products-section">
+        <div class="product">
+            <a style="text-decoration: none;color: black;" href="product1.html">
+                <img  src="img/babybee.png" alt="Black sock">
+            <h3> Maryline bag </h3>
+            <button id="btn">Show More</button>
+            </a>
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;color: black;" href="product2.html">
+                <img src="img/black&gold.png" alt="Black sock">
+            <h3>Black & gold</h3>
+            <button id="btn">Show More</button>
+            </a>
+
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;color: black;" href="product3.html">
+                <img src="img/black&red.png" alt="Black sock">
+            <h3>Black & red</h3>
+            <button id="btn">Show More</button>
+            </a>
+
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;color: black;" href="product4.html">
+                <img src="img/blue.png" alt="Black sock">
+            <h3>Blue bag</h3>
+            <button id="btn">Show More</button>
+            </a>
+
+        </div>
+
+        <div class="product">
+            <a style="text-decoration: none;color: black;" href="product4.html">
+                <img src="img/bluebag.png" alt="Black sock">
+            <h3>Sky Blue bag</h3>
+            <button id="btn">Show More</button>
+            </a>
+
+        </div>
+
+    </div>
+
+     <!-- Contact Form -->
+     <section id="contact1" class="contact-form1">
+        <marquee ><pre style="font-size: 20px;">&copy; GBf - Services       &copy; GBf - Services           &copy; GBf - Services         &copy; GBf - Services         &copy; GBf - Services</pre></marquee>
+        
+    </section>
+
+    <div class="whatsapp-icon"><a href="https://wa.me/+96103226752"><img src="whatsapp.svg" width="150px" style="border-radius:50%" alt="WhatsApp"></a></div>
+
+    <script>
+        
+    </script>
+
+</body>
+</html>
